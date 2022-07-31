@@ -1,6 +1,5 @@
 Smart Contract based Supply Chain Management for Data Integrity and Anti-Tampering.
-<p> SMART CONTRACT -->  https://ropsten.etherscan.io/address/0xE4b876ed393E19FbD18eC99118647BcbFE5300F3#code </p>
-<p> Frontend link  --> https://psupplychain.netlify.app/ </p>
+<p> SMART CONTRACT --> https://ropsten.etherscan.io/address/0x26c2b788ff3424d04d8242bb32a4da1e7263261e#code</p>
 
 <h3> Tech Stack </h3>
 <ul>
@@ -11,14 +10,6 @@ Smart Contract based Supply Chain Management for Data Integrity and Anti-Tamperi
 </ul>
 
 #SCREENSHOTS
-
-<p>HOME PAGE </p>
-
-![](Screenshots/Home.png)
-
-<p>PRODUCTS PAGE</p>
-
-![](Screenshots/Products.png)
 
 <p>STATUS PAGE</p>
 
