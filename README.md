@@ -1,5 +1,5 @@
 Smart Contract based Supply Chain Management for Data Integrity and Anti-Tampering.
-<p> SMART CONTRACT --> https://ropsten.etherscan.io/address/0x26c2b788ff3424d04d8242bb32a4da1e7263261e#code</p>
+<p> SMART CONTRACT --> https://goerli.infura.io/v3/175da0f46a3141c980a960a6d1ab6cb9#code</p>
 
 <h3> Tech Stack </h3>
 <ul>
