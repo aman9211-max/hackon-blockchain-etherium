@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div class="landing-wrapper">
-      <div id="heading">Supply Chain Management using Blockchain and IoT</div>
+      <div id="heading">Supply Chain Management in Medical Technology and Products using Blockchain and IoT</div>
       <h3>This app is for simulation of a Supply Chain.</h3>
       <h3> WORKING</h3>
       <div
@@ -36,10 +36,10 @@ const Home = () => {
         Made By:{" "}
         <a
           style={{ color: "#00BFFF" }}
-          href="https://github.com/Ayush2k02"
+          href="https://github.com/aman9211-max"
           target="_blank"
         >
-          Cloud6{" "}
+          CODEGUNS{" "}
         </a>
       </p>
     </div>
