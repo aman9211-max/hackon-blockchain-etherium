@@ -18,8 +18,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 
-const ALCHEMY_API_KEY = process.env.ALCHEMY_KEY1;
-const PRIVATE_KEY =process.env.PRIVATE_KEY;
+// const ALCHEMY_API_KEY = process.env.ALCHEMY_KEY1;
+// const PRIVATE_KEY =process.env.PRIVATE_KEY;
 
 
 module.exports = {
@@ -29,8 +29,8 @@ module.exports = {
   },
   networks: {
     ropsten: {
-      url: `https://eth-ropsten.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-      accounts: [`${PRIVATE_KEY}`]
+      url: `https://goerli.infura.io/v3/175da0f46a3141c980a960a6d1ab6cb9`,
+      accounts: [`de50244aaec9242ffe9644965e33fb1729a4e4b1aab52f42a33fad3239aa8705`]
     },
   }
 }
