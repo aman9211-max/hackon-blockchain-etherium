@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 w3 = Web3(Web3.HTTPProvider(
-    "https://ropsten.infura.io/v3/90d9a13243ea4aa8a345a82bc4ab0073"))
+    "https://goerli.infura.io/v3/175da0f46a3141c980a960a6d1ab6cb9"))
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
 
@@ -681,13 +681,13 @@ abi = json.loads("""[
 ]""")
 
 #key = os.getenv("RINKEBY_KEY")
-key = "ed5c117e06bb96281c80fa22aa91b32c4043b9f59b5370cf2b78e32d63fb1cc9"
+key = "de50244aaec9242ffe9644965e33fb1729a4e4b1aab52f42a33fad3239aa8705"
 print(key)# private key account
 account = w3.toChecksumAddress(
-    '0x0649F4ea2a2B584D79bC2f19ED85425FA0CB355F')  # account
+    '0x02046af1E2566837158C5963A7dDd8415aDD0A95')  # account
 
 address = w3.toChecksumAddress('0x26c2b788ff3424d04d8242bb32a4da1e7263261e')
-    #'0xFa56954976bA7d616945c09A7e360499e7038d98')  # contrat address
+    #'0x5151305c04ad6AADBCbCf3372984c8cAf956664a')  # contract address
 deployed_contract = w3.eth.contract(address=address, abi=abi)
 
 print(deployed_contract.functions.getWorkerssList().call())
